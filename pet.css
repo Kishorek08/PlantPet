@@ -1,0 +1,46 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background: #eef9f0;
+    padding-top: 20px;
+}
+
+#plant-container {
+    position: relative;
+    width: 220px;
+    margin: auto;
+}
+
+#plant {
+    width: 200px;
+    transition: transform 1.5s ease;
+}
+
+#weather-icon {
+    position: absolute;
+    width: 60px;
+    top: -20px;
+    right: -20px;
+}
+
+#water-bar {
+    width: 300px;
+    height: 20px;
+    background: #ccc;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#water-fill {
+    height: 100%;
+    background: #4ec8ff;
+    width: 50%;
+    border-radius: 10px;
+    transition: width 0.5s ease;
+}
+
+button {
+    padding: 12px 30px;
+    margin-top: 20px;
+    font-size: 16px;
+}
